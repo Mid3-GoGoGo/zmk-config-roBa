@@ -70,7 +70,7 @@
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                            &kp Y             &kp U  &lt 5 I    &kp O    &kp P
 &mt LEFT_ALT A    &kp S         &kp D         &kp F                   &kp G                   &kp LS(LG(S))             &kp MINUS      &kp H             &kp J  &kp K      &kp L    &kp ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B                   &kp COLON                 &kp SEMICOLON  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 LANG2  &lt_to_layer_0 4 SPACE  &lt_to_layer_0 5 TAB      &kp BACKSPACE  &lt 4 LANGUAGE_1                             &kp ESCAPE
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 LANG2  &lt_to_layer_0 4 SPACE  &lt_to_layer_0 5 TAB      &kp BACKSPACE  &lt 1 LANGUAGE_1                             &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp LG(KP_PLUS) LG(KP_MINUS)>;
@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&trans                      &trans  &trans  &trans  &kp PLUS                                &kp KP_N7  &kp KP_N8        &kp KP_N9        &kp ASTERISK  &kp SLASH
-&trans                      &trans  &trans  &trans  &kp ASTERISK  &none       &kp KP_COMMA  &kp KP_N4  &kp KP_N5        &kp KP_NUMBER_6  &kp PLUS      &kp MINUS
-&mt LEFT_SHIFT KP_NUMBER_0  &trans  &trans  &trans  &trans        &kp AT      &kp KP_N0     &kp KP_N1  &kp KP_NUMBER_2  &kp KP_N3        &kp EQUAL     &kp LPAR
-&trans                      &trans  &trans  &trans  &trans        &trans      &trans        &trans                                                     &kp RPAR
+&kp EXCL        &kp AT  &kp TILDE  &kp PRCNT  &kp AMPS                                &kp KP_N7  &kp KP_N8        &kp KP_N9        &kp ASTERISK  &kp SLASH
+&trans          &trans  &trans     &trans     &kp ASTERISK  &none       &kp KP_COMMA  &kp KP_N4  &kp KP_N5        &kp KP_NUMBER_6  &kp PLUS      &kp MINUS
+&kp LEFT_SHIFT  &trans  &trans     &trans     &kp AMPS      &kp AT      &kp KP_N0     &kp KP_N1  &kp KP_NUMBER_2  &kp KP_N3        &kp EQUAL     &kp LPAR
+&trans          &trans  &trans     &trans     &trans        &trans      &trans        &trans                                                     &kp RPAR
             >;
         };
 
