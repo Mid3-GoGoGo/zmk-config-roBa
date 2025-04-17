@@ -89,10 +89,10 @@
 
         NUM {
             bindings = <
-&kp EXCL        &kp AT      &kp TILDE     &kp PRCNT        &kp POUND                                   &kp KP_N7  &kp KP_N8        &kp KP_N9        &kp ASTERISK  &kp SLASH
-&trans          &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_CALCULATOR  &none       &kp KP_COMMA  &kp KP_N4  &kp KP_N5        &kp KP_NUMBER_6  &kp PLUS      &kp MINUS
-&kp LEFT_SHIFT  &trans      &trans        &trans           &kp AMPS          &kp AT      &kp KP_N0     &kp KP_N1  &kp KP_NUMBER_2  &kp KP_N3        &kp EQUAL     &kp LPAR
-&trans          &trans      &trans        &trans           &trans            &trans      &trans        &trans                                                     &kp RPAR
+&kp EXCL        &kp AT      &kp TILDE     &kp PRCNT        &kp POUND                                &kp KP_N7  &kp KP_N8        &kp KP_N9        &kp ASTERISK  &kp SLASH
+&trans          &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_AL_CALC  &none       &kp KP_COMMA  &kp KP_N4  &kp KP_N5        &kp KP_NUMBER_6  &kp PLUS      &kp MINUS
+&kp LEFT_SHIFT  &trans      &trans        &trans           &kp AMPS       &kp AT      &kp KP_N0     &kp KP_N1  &kp KP_NUMBER_2  &kp KP_N3        &kp EQUAL     &kp LPAR
+&trans          &trans      &trans        &trans           &trans         &trans      &trans        &trans                                                     &kp RPAR
             >;
         };
 
